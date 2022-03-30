@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-frame {
+  width: 1150px;
+}
+/* @media screen and (max-width: 600px) {
+  .header, .header__logo {
+    width: 100%;
+  }
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  /* background-color: silver; */
+}
+
+.header__logo {
+  width: auto;
+  height: 50px;
+}
+/* .header__nav {
+  margin-left: 100px;
+} */
+.header__nav li {
+  display: inline;
+  padding: 20px;
+}
+.main-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
+.about-me {
+
+  text-align: center;
+  background-color: silver;
+}
+.portfolio {
+  background-color: rgb(76, 117, 176);
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.my-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  background-color: skyblue;
+}
+.my-skills__avatar {
+  width: 555px;
+  height: 450px;
+}
+.how-i-work {
+  text-align: center;
+  background-color: silver;
+}
+.how-i-work__video-frame {
+  width: 100%;
+}
+.pictures {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 100px;
+  background-color: #72a6d1;
+  padding: 10px;
+}
+.job-application {
+  text-align: center;
+  background-color: silver;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(76, 117, 176);
+}
+
