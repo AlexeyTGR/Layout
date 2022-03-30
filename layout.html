@@ -3,6 +3,9 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Project Layout</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,56 +13,72 @@
 </head>
 
 <body>
-  <section>
+  <section class="header-box">
     <div class="main-frame header">
-      <img class="header__logo" src="images/logo.png" alt="logo">
-      <nav class="header__nav">
-        <ul>
-          <li><a href="">ГЛАВНОЕ</a></li>
-          <li><a href="">ОБ АВТОРЕ</a></li>
-          <li><a href="">РАБОТЫ</a></li>
-          <li><a href="">ПРОЦЕССЫ</a></li>
-          <li><a href="">КОНТАКТЫ</a></li>
-        </ul>
-      </nav>
+      <div>
+        <img class="header__logo" src="images/logo.png" alt="logo">
+      </div>
+      <div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="">ГЛАВНОЕ</a></li>
+            <li><a href="">ОБ АВТОРЕ</a></li>
+            <li><a href="">РАБОТЫ</a></li>
+            <li><a href="">ПРОЦЕССЫ</a></li>
+            <li><a href="">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </section>
-  <section>
+  <section class="main-screen-box">
     <div class="main-frame main-screen">
       <div>
         <img src="images/computer.png" alt="computer">
       </div>
-      <div>
+      <div class="main-screen__text">
         <h1>Дизайн и верстка</h1>
         <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.<br> Lorem Ipsum является
           стандартной
           "рыбой" для текстов на латинице с начала XVI века.</p>
-        <button type="button">НАПИСАТЬ МНЕ</button>
+        <button class="button button-write" type="button">НАПИСАТЬ МНЕ</button>
       </div>
     </div>
   </section>
-  <section>
+  <section class="about-me-box">
     <div class="main-frame about-me">
-      <h1>Обо мне</h1>
-      <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.<br> Lorem Ipsum является
+      <h2>Обо мне</h2>
+      <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
         стандартной
         "рыбой" для текстов на латинице с начала XVI века.</p>
     </div>
   </section>
-  <section>
+  <section class="portfolio-box">
     <div class="main-frame portfolio">
-      <div>40+ <br>проектов</div>
-      <div>40+ <br>проектов</div>
-      <div>40+ <br>проектов</div>
-      <div>40+ <br>проектов</div>
-      <div>40+ <br>проектов</div>
-      <div>40+ <br>проектов</div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
+      <div>
+        <img src="images/portfolio-item.png" alt="portfolio item">
+      </div>
     </div>
   </section>
-  <section>
+  <section class="my-skills-box">
     <div class="main-frame my-skills">
       <div>
-        <h1>Мои навыки</h1>
+        <h2>Мои навыки</h2>
         <ul>
           <li>Adobe Photoshop</li>
           <li>Adobe Photoshop</li>
@@ -71,11 +90,11 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="how-i-work-box">
     <div class="main-frame how-i-work">
-      <div>
-        <h1>Как я работаю</h1>
-        <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.<br> Lorem Ipsum является
+      <div class="how-i-work__text">
+        <h2>Как я работаю</h2>
+        <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
           стандартной
           "рыбой" для текстов на латинице с начала XVI века.</p>
       </div>
@@ -86,54 +105,57 @@
   </section>
   <section class="pictures">
     <div>
-      <p>PICTURES BLOCK 111</p>
+      <img src="images/picture1.png" alt="sheets">
     </div>
     <div>
-      <p>PICTURES BLOCK 222</p>
+      <img src="images/picture2.png" alt="work process">
     </div>
     <div>
-      <p>PICTURES BLOCK 333</p>
+      <img src="images/picture1.png" alt="sheets">
     </div>
     <div>
-      <p>PICTURES BLOCK 444</p>
+      <img src="images/picture2.png" alt="work process">
     </div>
     <div>
-      <p>PICTURES BLOCK 555</p>
+      <img src="images/picture1.png" alt="sheets">
     </div>
     <div>
-      <p>PICTURES BLOCK 666</p>
+      <img src="images/picture2.png" alt="work process">
     </div>
     <div>
-      <p>PICTURES BLOCK 777</p>
+      <img src="images/picture1.png" alt="sheets">
     </div>
     <div>
-      <p>PICTURES BLOCK 888</p>
+      <img src="images/picture2.png" alt="work process">
     </div>
   </section>
-  <section>
-    <div class="main-frame job-application">
+  <section class="job-app-box">
+    <div class="main-frame job-app">
       <div>
-        <h1>Хотите вэб-сайт?</h1>
-        <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.<br> Lorem Ipsum является
+        <h2>Хотите вэб-сайт?</h2>
+        <p>lorem ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
           стандартной
           "рыбой" для текстов на латинице с начала XVI века.</p>
       </div>
       <div>
-        <form action="/action_page.php">
-          <label for="name"></label>
-          <input type="text" placeholder="Ваше имя">
-          <label for="email"></label>
-          <input type="email" id="email" name="e-mail" placeholder="Ваш email"><br>
-          <textarea rows="7" cols="45" name="text" placeholder="Сообщение"></textarea><br>
-          <input type="submit" value="Submit">
+        <form class="job-app__form" action="/action_page.php">
+          <div class="job-app__input-area">
+            <input type="text" placeholder="Ваше имя">
+            <input type="email" id="email" name="e-mail" placeholder="Ваш email">
+          </div>
+          <br>
+          <div>
+            <textarea rows="7" cols="45" name="text" placeholder="Сообщение"></textarea><br>
+          </div>          
+          <input class="button button-send" type="submit" value="НАПИСАТЬ МНЕ">
         </form>
       </div>
     </div>
   </section>
-  <section>
+  <section class="footer-box">
     <div class="main-frame footer">
-      <div>
-        <h1>Иванов Иван</h1>
+      <div class="footer__text">
+        <h3>Иванов Иван</h3>
         <p>2018. Все права защищены</p>
       </div>
       <div>
