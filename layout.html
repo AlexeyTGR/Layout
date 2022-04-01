@@ -14,8 +14,10 @@
 <body>
     <section class="main-background-color">
         <div class="main-frame header typical-block">
-            <img class="header__logo" src="images/logo.png" alt="logo">
-            <nav>
+            <div class="header__logo-container">
+                <img class="header__logo-img" src="images/logo.png" alt="logo">
+            </div>
+            <nav class="header__navigation">
                 <a class="navigation-link chosen-page-part" href="">ГЛАВНАЯ</a>
                 <a class="navigation-link" href="">ОБ АВТОРЕ</a>
                 <a class="navigation-link" href="">РАБОТЫ</a>
@@ -24,44 +26,56 @@
             </nav>
         </div>
     </section>
+
     <section class="main-background-color">
         <div class="main-frame main-screen">
             <img class="main-screen__logo" src="images/computer.png" alt="computer">
             <div class="main-screen__description">
-                <h1 class="main-screen__title">Дизайн и верстка</h1>
-                <p class="main-screen__textbox">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <button class="main-screen__button third-background-color" type="button">НАПИСАТЬ МНЕ</button>
+                <h1 class="main-screen__title">
+                    Дизайн и верстка
+                </h1>
+                <p class="main-screen__textbox">
+                    Lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является
+                    стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+                <button class="button main-screen__button third-background-color" type="button">
+                    НАПИСАТЬ МНЕ
+                </button>
             </div>
         </div>
     </section>
+
     <section class="second-background-color common-textarea-position">
         <div class="about-me common-textarea-size">
             <h2 class="article-titles">Обо мне</h2>
-            <p class="about-me__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <p class="about-me__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне.
+                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
     </section>
+
     <section class="third-background-color">
         <div class="portfolio main-frame typical-block">
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
-            <div>
+            <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
             </div>
         </div>
     </section>
+
     <section class="second-background-color">
         <div class="main-frame my-skills typical-block">
             <div class="my-skills__visualization_block">
@@ -88,18 +102,19 @@
                         <div class="current-skill-level"></div>
                     </div>
                 </div>
-
             </div>
             <div class="my-skills__portrait">
                 <img src="images/avatar.png" alt="Author" width=100% height=100%>
             </div>
         </div>
     </section>
+
     <section class="main-background-color">
         <div class="main-frame how-i-work common-textarea-position">
             <div class="how-i-work__text common-textarea-size">
                 <h2 class="article-titles">Как я работаю</h2>
-                <p class="how-i-work__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <p class="how-i-work__article">Lorem ipsum - это текст-"рыба", часто используемый в печати и
+                    вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
             <div class="how-i-work__video-frame">
                 <img src="images/video-frame.png" alt="youtube-example" width=100% height=100%>
@@ -107,85 +122,87 @@
             </div>
         </div>
     </section>
+
     <section class="gallery second-background-color">
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture1.png" alt="sheets">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture2.png" alt="work process">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture1.png" alt="sheets">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture2.png" alt="work process">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture2.png" alt="work process">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture1.png" alt="sheets">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture2.png" alt="work process">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-        <div class="gallery__picture-frame">
-            <img class="gallery__picture" src="images/picture1.png" alt="sheets">
-            <div class="opacity-background"></div>
-            <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
-        </div>
-
-
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture1.png" alt="sheets">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture2.png" alt="work process">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture1.png" alt="sheets">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture2.png" alt="work process">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture2.png" alt="work process">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture1.png" alt="sheets">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture2.png" alt="work process">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+            <div class="gallery__picture-frame">
+                <img class="gallery__picture" src="images/picture1.png" alt="sheets">
+                <div class="opacity-background"></div>
+                <input class="picture-view-button play-video-button" type="image" src="images/view-icon.png" />
+            </div>
+        
     </section>
+
     <section class="main-background-color common-textarea-position">
         <div class="job-offer common-textarea-size">
             <div>
                 <h2 class="article-titles">Хотите веб-сайт?</h2>
-                <p class="job-offer__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <p class="job-offer__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
             <form action="/action_page.php">
-                <div class="typical-block">
+                <div class="typical-block job-offer__input-area">
                     <input class="job-offer__form job-offer__personal-data" type="text" placeholder="Ваше имя">
-                    <input class="job-offer__form job-offer__personal-data" type="email" id="email" name="e-mail" placeholder="Ваш email">
+                    <input class="job-offer__form job-offer__personal-data" type="email" id="email" name="e-mail"
+                        placeholder="Ваш email">
                 </div>
-                <br>
+                <!-- <br> -->
                 <div>
-                    <textarea class="job-offer__form job-offer__textbox" rows="7" cols="45" name="text" placeholder="Сообщение"></textarea><br>
+                    <textarea class="job-offer__form job-offer__textbox" rows="7" cols="45" name="text"
+                        placeholder="Сообщение"></textarea><br>
                 </div>
             </form>
-            <input class="button-send-message third-background-color" type="submit" value="ОТПРАВИТЬ">
+            <input class="button button-send-message third-background-color" type="submit" value="ОТПРАВИТЬ">
         </div>
     </section>
+
     <section class="third-background-color">
         <div class="main-frame footer typical-block">
             <div class="footer__info-area">
-                <h3 class="footer__owner details">Иванов Иван</h3>
-                <p class="footer__copyright">2018. Все права защищены</p>
+                <h3 class="footer__owner-details">Иванов Иван</h3>
+                <p class="footer__copyright">(c) 2018. Все права защищены</p>
             </div>
-            <div>
+            <div class="footer__social-link-block">
                 <img class="social-logo" src="images/social-logo.png" alt="social-logo">
                 <img class="social-logo" src="images/social-logo.png" alt="social-logo">
                 <img class="social-logo" src="images/social-logo.png" alt="social-logo">
             </div>
         </div>
     </section>
-
-
-
 </body>
 
 </html>
