@@ -1,3 +1,5 @@
+/* GENERAL styles block START */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,16 +15,28 @@ body {
     line-height: 26px;
 }
 
+.main-background-color {
+    background-color: #EEEFF1;
+}
+
+.second-background-color {
+    background-color: #E5E5E5;
+}
+
+.third-background-color {
+    background-color: #34547A;
+    color: white;
+}
+
+.typical-block {
+    display: flex;
+    justify-content: space-between;
+}
+
 .article-titles {
     color: black;
     font-weight: 500;
     font-size: 32px;
-}
-
-.main-screen__title {
-    color: black;
-    font-weight: 500;
-    font-size: 48px;
 }
 
 .common-textarea-size {
@@ -30,9 +44,28 @@ body {
     width: 100%;
 }
 
+.common-textarea-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-frame {
-    width: 1150px;
+    max-width: 1150px;
+    width: 100%;
     margin: 0 auto;
+}
+
+
+/* GENERAL styles block END */
+
+
+/* MAIN SCREEN block START */
+
+.main-screen__title {
+    color: black;
+    font-weight: 500;
+    font-size: 48px;
 }
 
 .header {
@@ -47,9 +80,9 @@ body {
     color: black;
 }
 
-.chosen {
-    color: #34547A!important;
-    font-weight: 500!important;
+.chosen-page-part {
+    color: #34547A;
+    font-weight: 500;
 }
 
 .main-screen {
@@ -74,9 +107,16 @@ body {
 }
 
 .main-screen__button {
-    height: 65px;
-    width: 225px;
+    padding: 25px 41px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
 }
+
+
+/* MAIN SCREEN block END */
+
+
+/* ABOUT ME block START */
 
 .about-me {
     text-align: center;
@@ -88,6 +128,12 @@ body {
     padding-top: 50px;
 }
 
+
+/* ABOUT ME block END */
+
+
+/* PORTFOLIO block START */
+
 .portfolio {
     padding: 100px 0px;
 }
@@ -97,9 +143,24 @@ body {
     height: auto;
 }
 
+
+/* PORTFOLIO block END */
+
+
+/* MY SKILLS block START */
+
 .my-skills {
     padding-top: 101px;
     padding-bottom: 100px;
+}
+
+.my-skills__skill-name {
+    line-height: 0px;
+}
+
+.my-skills__visualization_block {
+    max-width: 445px;
+    width: 100%;
 }
 
 .my-skills__title {
@@ -108,26 +169,16 @@ body {
     padding-bottom: 50px;
 }
 
-.my-skills__skill-list {
-    max-width: 445px;
+.skill-level-total {
+    background-color: #C4C4C4;
     height: 4px;
-    padding-bottom: 60px;
+    margin: 20px 0px 30px 0px;
 }
 
-.my-skills__skill-list li {
-    list-style-type: none;
-}
-
-.skill-list__background {
-    width: 100%;
-    position: relative;
-    bottom: 4px;
-}
-
-.skill-list__level {
-    width: 78.5%;
-    position: relative;
-    bottom: 30px
+.current-skill-level {
+    width: 79%;
+    height: 4px;
+    background-color: #34547A;
 }
 
 .my-skills__portrait {
@@ -135,10 +186,13 @@ body {
     height: 450px;
 }
 
+
+/* MY SKILLS block END */
+
+
+/* HOW I WORK block START */
+
 .how-i-work {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
 }
 
@@ -167,6 +221,12 @@ body {
     transform: translate(-50%, -50%);
     transition: 0.2s;
 }
+
+
+/* HOW I WORK block END */
+
+
+/* GALLERY block START */
 
 .gallery {
     width: 100%;
@@ -210,6 +270,12 @@ body {
     transition: 0.2s;
 }
 
+
+/* GALLERY block END */
+
+
+/* JOB OFFER block START */
+
 .job-offer {
     text-align: center;
     padding: 100px 0px;
@@ -236,10 +302,15 @@ body {
 }
 
 .button-send-message {
-    height: 55px;
-    width: 190px;
+    padding: 20px 53px;
     margin-top: 50px;
 }
+
+
+/* JOB OFFER block END */
+
+
+/* FOOTER block START */
 
 .footer {
     align-items: center;
@@ -266,23 +337,8 @@ body {
     padding-left: 21.87px;
 }
 
-.main-background-color {
-    background-color: #EEEFF1;
-}
 
-.second-background-color {
-    background-color: #E5E5E5;
-}
-
-.third-background-color {
-    background-color: #34547A;
-    color: white;
-}
-
-.typical-block {
-    display: flex;
-    justify-content: space-between;
-}
+/* FOOTER block END */
 
 
 /* @media screen and (max-width: 600px) {
