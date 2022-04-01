@@ -60,7 +60,6 @@ body {
   margin: 0 auto;
 }
 
-
 /* GENERAL styles block END */
 
 
@@ -128,7 +127,6 @@ body {
   letter-spacing: 0.1em;
 }
 
-
 /* MAIN SCREEN block END */
 
 
@@ -143,7 +141,6 @@ body {
 .about-me__article {
   padding-top: 50px;
 }
-
 
 /* ABOUT ME block END */
 
@@ -160,7 +157,6 @@ body {
   width: 100%;
   height: auto;
 }
-
 
 /* PORTFOLIO block END */
 
@@ -209,7 +205,6 @@ body {
   height: 100%;
 }
 
-
 /* MY SKILLS block END */
 
 
@@ -244,7 +239,6 @@ body {
   transition: 0.2s;
 }
 
-
 /* HOW I WORK block END */
 
 
@@ -254,16 +248,16 @@ body {
   width: 100%;
   padding: 28px 0px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: auto auto;
   grid-template-rows: 1fr;
   gap: 0px 0px;
 }
 
-/* .gallery__pictures-block {
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-} */
+.gallery__container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr;
+}
 
 .gallery__picture {
   width: 100%;
@@ -297,7 +291,6 @@ body {
   opacity: 0;
   transition: 0.2s;
 }
-
 
 /* GALLERY block END */
 
@@ -341,7 +334,6 @@ body {
   letter-spacing: 0.15em
 }
 
-
 /* JOB OFFER block END */
 
 
@@ -371,7 +363,6 @@ body {
 .social-logo {
   padding-left: 22px;
 }
-
 
 /* FOOTER block END */
 
@@ -498,7 +489,6 @@ body {
     grid-gap: 80px 57px;
     padding: 75px 19px 68px 18px;
   }
-  
   .my-skills__portrait {
     max-width: 339px;
     width: 100%;
@@ -509,60 +499,52 @@ body {
   .my-skills__visualization_block {
     padding: 0;
   }
-
   .how-i-work__article {
-      padding-top: 34px;
+    padding-top: 34px;
   }
-
   .how-i-work__video-frame {
-      padding-left: 18px;
-      padding-right: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
-.play-video-button {
+  .play-video-button {
     width: 75px;
     height: 75px;
     top: calc(50% - 37.5px);
     left: calc(50% - 37.5px);
     transition: 0.2s;
-}
-.gallery {
+  }
+  .gallery {
     padding: 34px 0px;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
     gap: 0px 0px;
-}
-
-/* .gallery__pictures-block {
-} */
-.job-offer__article {
+  }
+  .job-offer__article {
     padding: 34px 0px 48px;
-}
-
-.job-offer__personal-data {
-
+  }
+  .job-offer__personal-data {
     width: 342px;
-    
     height: 50px;
-}
+  }
   .job-offer__input-area {
     display: grid;
     row-gap: 22px;
     padding-bottom: 21px;
   }
   .footer {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-bottom: 45px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 45px;
   }
   .footer__info-area {
-      padding-bottom: 38px;
+    padding-bottom: 38px;
   }
   .footer__copyright {
-      font-size: 13px;
-      line-height: 11px;
+    font-size: 13px;
+    line-height: 11px;
   }
   .social-logo {
     padding: 0px 10px;
-
+  }
 }
