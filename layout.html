@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <section class="main-background-color">
+    <section id="page-top" class="main-background-color">
         <div class="main-frame header typical-block">
             <div class="header__logo-container">
                 <img class="header__logo-img" src="images/logo.png" alt="logo">
             </div>
             <nav class="header__navigation">
-                <a class="navigation-link chosen-page-part" href="">ГЛАВНАЯ</a>
-                <a class="navigation-link" href="">ОБ АВТОРЕ</a>
-                <a class="navigation-link" href="">РАБОТЫ</a>
-                <a class="navigation-link" href="">ПРОЦЕСС</a>
-                <a class="navigation-link" href="">КОНТАКТЫ</a>
+                <a class="navigation-link chosen-page-part" href="#page-top">ГЛАВНАЯ</a>
+                <a class="navigation-link" href="#about-me">ОБ АВТОРЕ</a>
+                <a class="navigation-link" href="#my-portfolio">РАБОТЫ</a>
+                <a class="navigation-link" href="#work-process">ПРОЦЕСС</a>
+                <a class="navigation-link" href="#contact-me">КОНТАКТЫ</a>
             </nav>
         </div>
     </section>
@@ -35,8 +35,7 @@
                     Дизайн и верстка
                 </h1>
                 <p class="main-screen__textbox">
-                    Lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является
-                    стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    Lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                 </p>
                 <button class="button main-screen__button third-background-color" type="button">
                     НАПИСАТЬ МНЕ
@@ -45,15 +44,14 @@
         </div>
     </section>
 
-    <section class="second-background-color common-textarea-position">
+    <section id="about-me" class="second-background-color common-textarea-position">
         <div class="about-me common-textarea-size">
             <h2 class="article-titles">Обо мне</h2>
-            <p class="about-me__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне.
-                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <p class="about-me__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         </div>
     </section>
 
-    <section class="third-background-color">
+    <section id="my-portfolio" class="third-background-color">
         <div class="portfolio main-frame typical-block">
             <div class="portfolio__container">
                 <img class="portfolio__logo" src="images/portfolio-item.png" alt="portfolio item">
@@ -109,12 +107,11 @@
         </div>
     </section>
 
-    <section class="main-background-color">
+    <section id="work-process" class="main-background-color">
         <div class="main-frame how-i-work common-textarea-position">
             <div class="how-i-work__text common-textarea-size">
                 <h2 class="article-titles">Как я работаю</h2>
-                <p class="how-i-work__article">Lorem ipsum - это текст-"рыба", часто используемый в печати и
-                    вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <p class="how-i-work__article">Lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
             <div class="how-i-work__video-frame">
                 <img src="images/video-frame.png" alt="youtube-example" width=100% height=100%>
@@ -170,23 +167,20 @@
         </div>
     </section>
 
-    <section class="main-background-color common-textarea-position">
+    <section id="contact-me" class="main-background-color common-textarea-position">
         <div class="job-offer common-textarea-size">
             <div>
                 <h2 class="article-titles">Хотите веб-сайт?</h2>
-                <p class="job-offer__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне.
-                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                <p class="job-offer__article">lorem ipsum - это текст-"рыба", часто используемый в печати и вэб‑дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
             <form action="/action_page.php">
                 <div class="typical-block job-offer__input-area">
                     <input class="job-offer__form job-offer__personal-data" type="text" placeholder="Ваше имя">
-                    <input class="job-offer__form job-offer__personal-data" type="email" id="email" name="e-mail"
-                        placeholder="Ваш email">
+                    <input class="job-offer__form job-offer__personal-data" type="email" id="email" name="e-mail" placeholder="Ваш email">
                 </div>
                 <!-- <br> -->
                 <div>
-                    <textarea class="job-offer__form job-offer__textbox" rows="7" cols="45" name="text"
-                        placeholder="Сообщение"></textarea><br>
+                    <textarea class="job-offer__form job-offer__textbox" rows="7" cols="45" name="text" placeholder="Сообщение"></textarea><br>
                 </div>
             </form>
             <input class="button button-send-message third-background-color" type="submit" value="ОТПРАВИТЬ">

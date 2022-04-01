@@ -60,6 +60,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* GENERAL styles block END */
 
 
@@ -127,6 +128,7 @@ body {
   letter-spacing: 0.1em;
 }
 
+
 /* MAIN SCREEN block END */
 
 
@@ -141,6 +143,7 @@ body {
 .about-me__article {
   padding-top: 50px;
 }
+
 
 /* ABOUT ME block END */
 
@@ -157,6 +160,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 
 /* PORTFOLIO block END */
 
@@ -205,6 +209,7 @@ body {
   height: 100%;
 }
 
+
 /* MY SKILLS block END */
 
 
@@ -238,6 +243,7 @@ body {
   left: calc(50% - 50px);
   transition: 0.2s;
 }
+
 
 /* HOW I WORK block END */
 
@@ -292,6 +298,7 @@ body {
   transition: 0.2s;
 }
 
+
 /* GALLERY block END */
 
 
@@ -334,6 +341,7 @@ body {
   letter-spacing: 0.15em
 }
 
+
 /* JOB OFFER block END */
 
 
@@ -363,6 +371,7 @@ body {
 .social-logo {
   padding-left: 22px;
 }
+
 
 /* FOOTER block END */
 
@@ -413,6 +422,8 @@ body {
     padding-top: 11px;
   }
   .main-screen__textbox {
+    line-height: 120%;
+    letter-spacing: 0;
     padding: 44px 0px;
   }
   .about-me {
@@ -426,7 +437,7 @@ body {
   }
   .my-skills {
     flex-direction: column-reverse;
-    padding: 82px 18px 70px 18px;
+    padding: 82px 18px 73px 18px;
   }
   .my-skills__visualization_block {
     display: flex;
@@ -447,7 +458,7 @@ body {
     padding-bottom: 43px;
   }
   .skill-level-total {
-    margin: 17px 0px 33px;
+    margin: 20px 0px 30px;
   }
   .article-titles {
     line-height: 37px;
@@ -460,6 +471,15 @@ body {
   }
   .job-offer {
     padding: 91px 16px 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .gallery {
+    padding: 34px 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 0px;
   }
 }
 
@@ -480,6 +500,12 @@ body {
   .main-screen__title {
     line-height: 36px;
     padding-top: 51px;
+  }
+  .main-screen__description {
+    padding: 0px 26px;
+  }
+  .about-me {
+    padding-top: 91px;
   }
   .about-me__article {
     padding-top: 42px;
@@ -513,14 +539,8 @@ body {
     left: calc(50% - 37.5px);
     transition: 0.2s;
   }
-  .gallery {
-    padding: 34px 0px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0px 0px;
-  }
   .job-offer__article {
-    padding: 34px 0px 48px;
+    padding: 34px 11px 48px;
   }
   .job-offer__personal-data {
     width: 342px;
@@ -535,7 +555,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
   }
   .footer__info-area {
     padding-bottom: 38px;
